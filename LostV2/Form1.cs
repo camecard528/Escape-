@@ -189,7 +189,7 @@ namespace LostV2
                 }
             }
 
-            /// Display text and game options to screen based on the current scene
+            /// Display text and game options to screen based on the current scene and images
             switch (scene)
             {
                 case 0:  //start scene  
