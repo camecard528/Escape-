@@ -33,11 +33,11 @@
             this.redLabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
             this.greenLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.imageOutput = new System.Windows.Forms.PictureBox();
             this.greenImage = new System.Windows.Forms.PictureBox();
             this.blueImage = new System.Windows.Forms.PictureBox();
             this.redImage = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageOutput)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redImage)).BeginInit();
@@ -84,14 +84,14 @@
             this.greenLabel.TabIndex = 7;
             this.greenLabel.Text = "Continue       ";
             // 
-            // pictureBox1
+            // imageOutput
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(115, 156);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(116, 102);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.imageOutput.Location = new System.Drawing.Point(115, 156);
+            this.imageOutput.Name = "imageOutput";
+            this.imageOutput.Size = new System.Drawing.Size(116, 102);
+            this.imageOutput.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageOutput.TabIndex = 8;
+            this.imageOutput.TabStop = false;
             // 
             // greenImage
             // 
@@ -131,7 +131,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(386, 460);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.imageOutput);
             this.Controls.Add(this.greenLabel);
             this.Controls.Add(this.greenImage);
             this.Controls.Add(this.blueLabel);
@@ -145,7 +145,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ESCAPE FROM ADAM JOHNSON";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageOutput)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.redImage)).EndInit();
@@ -162,7 +162,7 @@
         private System.Windows.Forms.Label blueLabel;
         private System.Windows.Forms.PictureBox greenImage;
         private System.Windows.Forms.Label greenLabel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox imageOutput;
     }
 }
 
